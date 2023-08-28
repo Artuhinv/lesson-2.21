@@ -31,7 +31,7 @@ public class Main {
         System.out.println("Кол-во вхождений подстроки в строку: " + count);
     }
     public static void less_2(String str){
-        System.out.println(str.replaceAll("кака | бяка", "вырезано цензурой"));
+        System.out.println(str.replaceAll("кака|бяка", "вырезано цензурой"));
     }
     public static void less_3(String str) {
         String[] arr = str.split("\\.");
